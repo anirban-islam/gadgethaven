@@ -1,0 +1,335 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Gaming Laptop Pro",
+    "product_image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=2132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "High-performance gaming laptop with RTX 3070.",
+    "specification": {
+      "brand": "GameTech",
+      "processor": "Intel i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "graphics": "RTX 3070"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "iPhone 14 Pro Max",
+    "product_image": "https://images.unsplash.com/photo-1699892131446-3aebcff41fb1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 1199.99,
+    "description": "Apple's flagship phone with A16 Bionic chip.",
+    "specification": {
+      "brand": "Apple",
+      "storage": "256GB",
+      "display": "6.7-inch Super Retina XDR",
+      "camera": "48MP",
+      "battery": "Long-lasting"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Wireless Earbuds",
+    "product_image": "https://images.unsplash.com/photo-1590658006821-04f4008d5717?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 49.99,
+    "description": "Compact wireless earbuds with noise cancellation.",
+    "specification": {
+      "brand": "SoundCore",
+      "battery_life": "8 hours",
+      "connectivity": "Bluetooth 5.0",
+      "color": "White"
+    },
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Galaxy Watch 6",
+    "product_image": "https://images.unsplash.com/photo-1553532129-70c57eb2bf81?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smartwatches",
+    "price": 349.99,
+    "description": "Advanced smartwatch with fitness tracking.",
+    "specification": {
+      "brand": "Samsung",
+      "display": "1.5-inch AMOLED",
+      "battery": "Up to 2 days",
+      "features": "Heart rate monitor, GPS"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P005",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://images.unsplash.com/photo-1659135890064-d57187f0946c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "MacBooks",
+    "price": 999.99,
+    "description": "Lightweight MacBook with M2 chip.",
+    "specification": {
+      "brand": "Apple",
+      "processor": "M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.3-inch Retina"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Ultrabook Laptop",
+    "product_image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=2132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 899.99,
+    "description": "Sleek and lightweight laptop for work and travel.",
+    "specification": {
+      "brand": "UltraTech",
+      "processor": "Intel i5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "weight": "1.2kg"
+    },
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Google Pixel 8",
+    "product_image": "https://images.unsplash.com/photo-1612442443556-09b5b309e637?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Google's latest smartphone with AI camera features.",
+    "specification": {
+      "brand": "Google",
+      "storage": "128GB",
+      "display": "6.3-inch OLED",
+      "camera": "50MP",
+      "battery": "All-day"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Gaming Mouse",
+    "product_image": "https://plus.unsplash.com/premium_photo-1678727388682-e7c1f1e41b14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 39.99,
+    "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+    "specification": {
+      "brand": "GameZone",
+      "dpi": "12000",
+      "buttons": "6 programmable",
+      "connectivity": "Wired",
+      "color": "Black"
+    },
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://images.unsplash.com/photo-1557045136-50ed3874553c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smartwatches",
+    "price": 199.99,
+    "description": "Fitness smartwatch with sleep tracking.",
+    "specification": {
+      "brand": "Fitbit",
+      "battery": "6 days",
+      "features": "Heart rate, SpO2, GPS",
+      "display": "1.4-inch LCD"
+    },
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": "P010",
+    "product_title": "MacBook Pro M2 Max",
+    "product_image": "https://images.unsplash.com/photo-1647805256812-ccb927cf1f67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "MacBooks",
+    "price": 2499.99,
+    "description": "High-performance MacBook with M2 Max chip.",
+    "specification": {
+      "brand": "Apple",
+      "processor": "M2 Max",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "display": "16-inch Retina"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Ultra Gaming Laptop",
+    "product_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1599.99,
+    "description": "Next-gen gaming laptop with superior cooling and RTX 4080.",
+    "specification": {
+      "brand": "EliteGaming",
+      "processor": "Intel i9",
+      "ram": "32GB",
+      "storage": "2TB SSD",
+      "graphics": "RTX 4080"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://images.unsplash.com/photo-1610792516286-524726503fb2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 1399.99,
+    "description": "Powerful flagship phone with advanced camera and S-Pen.",
+    "specification": {
+      "brand": "Samsung",
+      "storage": "512GB",
+      "camera": "200MP",
+      "battery": "5000mAh",
+      "display": "6.8-inch AMOLED"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Wireless Keyboard and Mouse Combo",
+    "product_image": "https://plus.unsplash.com/premium_photo-1661600657166-8024bdc4f130?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 49.99,
+    "description": "Ergonomic wireless keyboard and mouse set.",
+    "specification": {
+      "brand": "KeyTech",
+      "connectivity": "Bluetooth 5.0",
+      "battery_life": "12 months",
+      "color": "Black"
+    },
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://images.unsplash.com/photo-1705307543536-06ebcb39bb0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smartwatches",
+    "price": 399.99,
+    "description": "Advanced health monitoring and fitness tracking smartwatch.",
+    "specification": {
+      "brand": "Apple",
+      "features": "Blood oxygen, ECG, GPS",
+      "battery": "18 hours",
+      "display": "Always-On Retina"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P015",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://images.unsplash.com/photo-1610887581595-d29b9f3079b2?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "MacBooks",
+    "price": 899.99,
+    "description": "Affordable yet powerful MacBook with M1 chip.",
+    "specification": {
+      "brand": "Apple",
+      "processor": "M1",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.3-inch Retina"
+    },
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Lightweight Ultrabook",
+    "product_image": "https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "Compact ultrabook with 14-hour battery life.",
+    "specification": {
+      "brand": "SlimTech",
+      "processor": "Intel i5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "weight": "1.1kg"
+    },
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P017",
+    "product_title": "OnePlus 12",
+    "product_image": "https://images.unsplash.com/photo-1527747471697-174c755627dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 799.99,
+    "description": "Flagship killer with fast charging and a sleek design.",
+    "specification": {
+      "brand": "OnePlus",
+      "storage": "256GB",
+      "camera": "50MP",
+      "battery": "4800mAh",
+      "display": "6.7-inch AMOLED"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Gaming Headset",
+    "product_image": "https://plus.unsplash.com/premium_photo-1679177183750-0eda63444b24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 69.99,
+    "description": "Immersive surround sound headset for gaming.",
+    "specification": {
+      "brand": "GameAudio",
+      "connectivity": "3.5mm Wired",
+      "microphone": "Noise-cancelling",
+      "color": "Black"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Garmin Forerunner 955",
+    "product_image": "https://images.unsplash.com/photo-1625027589035-0844e7f91b1b?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smartwatches",
+    "price": 499.99,
+    "description": "Professional smartwatch for athletes and runners.",
+    "specification": {
+      "brand": "Garmin",
+      "features": "VO2 Max, GPS, Training plans",
+      "battery": "15 days",
+      "display": "1.3-inch AMOLED"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P020",
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "https://images.unsplash.com/photo-1658400274389-e7dbedd89b67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "MacBooks",
+    "price": 1999.99,
+    "description": "Powerful MacBook for professionals with M2 Pro chip.",
+    "specification": {
+      "brand": "Apple",
+      "processor": "M2 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14.2-inch Retina"
+    },
+    "availability": true,
+    "rating": 4.9
+  }
+]

@@ -17,10 +17,10 @@ const Footer = () => {
         <footer className="footer md:items-center flex-col justify-center md:flex-row md:flex md:justify-between md:w-4/5 md:px-10 mx-auto">
           <nav>
             <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
+            <a className="link link-hover">Fast Delivery</a>
             <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
+            <a className="link link-hover">Best Quality</a>
+            <a className="link link-hover">Branded</a>
           </nav>
           <nav>
             <h6 className="footer-title">Company</h6>

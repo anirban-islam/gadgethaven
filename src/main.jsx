@@ -37,17 +37,17 @@ const router = createBrowserRouter([
       {
         path: "product/:productid",
         element: <ProductDetails></ProductDetails>,
-        loader: () => fetch("/src/Product_Data/Product.json"),
+        loader: () => fetch("/Product_Data/Product.json"),
       },
       {
         path: "/dashbord/cart",
         element: <Cartdata></Cartdata>,
-        loader: () => fetch("/src/Product_Data/Product.json"),
+        loader: () => fetch("/Product_Data/Product.json"),
       },
       {
         path: "/dashbord/wishlist",
         element: <Wishdata></Wishdata>,
-        loader: () => fetch("/src/Product_Data/Product.json"),
+        loader: () => fetch("/Product_Data/Product.json"),
       },
     ],
   },
